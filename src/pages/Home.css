@@ -1,0 +1,39 @@
+.typewriter-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #c43030;
+    /* font-size: 2rem; */
+    /* font-weight: bold; */
+    /* background: linear-gradient(to right, #ffc12f, #ff0000); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+  
+    width: 0;
+    animation: typing 8s steps(40, end) infinite, blink 0.75s step-end infinite;
+    animation-delay: 1s, 0s;
+  }
+  
+  /* Typing with pause at the end (3s hold after typing) */
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    60% {
+      width: 40ch; /* adjust to text length */
+    }
+    100% {
+      width: 40ch;
+    }
+  }
+  
+  /* Blinking cursor */
+  @keyframes blink {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #3b82f6;
+    }
+  }
+  
