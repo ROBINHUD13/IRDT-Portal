@@ -15,12 +15,12 @@ const Card = () => {
         <div className="absolute inset-0 bg-[rgba(0,0,0,0.1)] group-hover:bg-[rgba(0,0,0,0.6)] transition duration-300 z-10"></div>
         
         {/* Name - always visible */}
-        <div className="absolute bottom-4 left-4 z-20 text-white text-xl font-bold">
+        <div className="absolute bottom-4 left-4 z-10 text-white text-xl font-bold">
           Prof. John Doe
         </div>
         
         {/* Description - hidden by default, slides up on hover */}
-        <div className="absolute bottom-[-100%] group-hover:bottom-16 left-0 w-full px-6 transition-all duration-500 z-20">
+        <div className="absolute bottom-[-100%] group-hover:bottom-16 left-0 w-full px-6 transition-all duration-500 z-10">
           <p className="text-white text-sm">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
           </p>
