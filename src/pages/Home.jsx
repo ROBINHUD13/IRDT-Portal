@@ -91,7 +91,7 @@ const Home = () => {
         </li>
         <li>
           <a href="#" className="block py-2 px-3 text-gray-300 hover:text-white md:p-0">
-            Services
+            Course
           </a>
         </li>
         <li>
